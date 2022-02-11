@@ -37,7 +37,7 @@ body {
   height: 2px;
   top: 50%;
   transform: translateY(-50%);
-  background: #979797;
+  background: rgb(249,249,249);
 }
 
 .toggle-btn span:nth-child(1) {
@@ -48,7 +48,7 @@ body {
 }
 
 .logo {
-  height: 70px;
+  height: 30px;
   margin: -10px 30px 0;
 }
 .search-box {
@@ -85,43 +85,17 @@ body {
 
   height: 35px;
   display: flex;
-margin-left: 600px;
+   margin-left: auto;
   align-items: center;
-  width: 10px;
+  /* width: 50px; */
 }
 
 #user-options .icon {
+  /* border: 1px solid #242424; */
   height: 80%;
-  margin-right:10px;
-  margin-left: 100px;
+  margin-right:20px;
   cursor: pointer;
 }
-#user-options>img{
-    width: 40px;
-}
-#user-options>img:nth-child(2){
-    width: 60px;
-    margin-right: 10px;
-    cursor: pointer;
-}
-/* #user-options>img:nth-child(4){
-  width: 60px;
-  margin-right: 10px;
-  cursor: pointer;
-  border-radius: 50%;
-  overflow: hidden;
-
-}
-.user-dp{
-  border: 1px solid red;
- 
-}
-.user-dp img{
-  
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
 
 /* 
 side-bar */
@@ -130,24 +104,14 @@ side-bar */
   top:60px;
   left:0;
   min-width: 250px;
+  width: 250px;
   height: calc(100vh - 60px);
   background: #fff;
   padding-right: 10px;
 }
 
-.side-bar>a>img{
-  width: 30px;
-}
-.side-bar>img:nth-child(8){
-  width: 100px;
-
-} 
-.side-bar>img:nth-child(9){
-  font-size: 200px;
-}
 .links{
   display: block;
-  
   width:100% ;
   padding: 10px 20px;
   display: flex;
@@ -171,9 +135,7 @@ side-bar */
   border-bottom: 1px solid rgba(0,0,0,0.1);
   margin:20px 0 ;
 }
-/* #container{
-height: 550px;
-} */
+
 /* filters */
 .filters{
   overflow-x:auto;
@@ -188,7 +150,6 @@ height: 550px;
   padding: 0 20px;
   display: flex;
   align-items: center;
-  margin-left: -10px;
   width: calc(100% - 250px)
 
 }
@@ -225,14 +186,15 @@ padding: 20px;
 display: grid;
 grid-template-columns:repeat(4,25%) ;
 grid-gap: 20px 15px;
-/* overflow-x: hidden; */
+overflow-x: hidden;
 
 }
 
 .video{
   /* background: #242424; */
   min-height: 250px;
-  height: auto;
+  
+height: auto;
  
 }
 .thumbnail{
@@ -256,8 +218,9 @@ object-fit: cover;
 margin-right: 10px;
 }
 .title{
+  font-size: small;
   width: 100%;
-  height: 40px;
+  height:60px;
   overflow: hidden;
 }
 .channel-name{
